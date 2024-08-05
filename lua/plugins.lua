@@ -17,4 +17,8 @@ require("lazy").setup({
   "scottmckendry/cyberdream.nvim",
   "alexvZyl/nordic.nvim",
   "eldritch-theme/eldritch.nvim",
+  -- LSP manager
+  "williamboman/mason.nvim",
+  "williamboman/mason-lspconfig.nvim",
+  "neovim/nvim-lspconfig",
 })
