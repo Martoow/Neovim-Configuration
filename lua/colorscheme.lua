@@ -1,6 +1,6 @@
 -- Define your color scheme here
 local colorscheme = 'monokai_pro'
-local colorscheme = 'cyberdream'
+-- local colorscheme = 'cyberdream'
 local colorscheme = 'nordic'
 local colorscheme = 'eldritch'
 

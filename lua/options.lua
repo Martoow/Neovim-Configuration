@@ -23,3 +23,6 @@ vim.opt.incsearch = true		--- search as characters are typed
 vim.opt.hlsearch = true			--- highlight matched expressions
 vim.opt.ignorecase = true		--- ignore case when searching...
 vim.opt.smartcase = true		--- ... but make the search case-sensitive if upper-case letters are part of the expression.
+
+-- Conceallevel
+vim.opt.conceallevel = 1    --- see ':help conceallevel' for more details

@@ -14,11 +14,16 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
   "tanvirtin/monokai.nvim",
-  "scottmckendry/cyberdream.nvim",
   "alexvZyl/nordic.nvim",
   "eldritch-theme/eldritch.nvim",
   -- LSP manager
   "williamboman/mason.nvim",
   "williamboman/mason-lspconfig.nvim",
   "neovim/nvim-lspconfig",
+  -- Obsidian
+  "obsidian-nvim/obsidian.nvim",
+  -- Plenary
+  "nvim-lua/plenary.nvim",
+  -- nvim-cmp
+  "hrsh7th/nvim-cmp"
 })
