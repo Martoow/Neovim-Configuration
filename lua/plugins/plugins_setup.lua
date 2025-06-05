@@ -13,17 +13,22 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
-  -- Colorschemes
+  -- Colorschemes -- 
   "tanvirtin/monokai.nvim",
   "alexvZyl/nordic.nvim",
   "eldritch-theme/eldritch.nvim",
-  -- LSP manager
+  "ellisonleao/gruvbox.nvim",
+  "savq/melange-nvim",
+  "vague2k/vague.nvim",
+  "rmehri01/onenord.nvim",
+  "sainnhe/everforest",
+  -- LSP manager --
   "williamboman/mason.nvim",
   "williamboman/mason-lspconfig.nvim",
   "neovim/nvim-lspconfig",
-  -- Obsidian
+  -- Obsidian -- 
   "obsidian-nvim/obsidian.nvim",
-  -- Completion
+  -- Completion --
   "nvim-lua/plenary.nvim",
   "hrsh7th/nvim-cmp",
   "nvim-telescope/telescope.nvim",

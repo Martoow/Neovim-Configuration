@@ -12,6 +12,7 @@ require('plugins.telescope_setup')
 
 -- Transparency --
 vim.cmd[[
+  colorscheme everforest
   highlight Normal guibg=none
   highlight NonText guibg=none
   highlight Normal ctermbg=none
