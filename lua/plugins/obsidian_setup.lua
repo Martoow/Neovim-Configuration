@@ -25,7 +25,7 @@ require("obsidian").setup {
 
   daily_notes = {
     -- Optional, if you keep daily notes in a separate directory.
-    folder = "Vault of Knowledge/'Daily Notes'",
+    folder = "Vault of Knowledge/Daily Notes",
     -- Optional, if you want to change the date format for the ID of daily notes.
     -- date_format = "%Y-%m-%d",
     -- Optional, if you want to change the date format of the default alias of daily notes.
@@ -176,10 +176,10 @@ require("obsidian").setup {
 
   -- Optional, set to true if you use the Obsidian Advanced URI plugin.
   -- https://github.com/Vinzent03/obsidian-advanced-uri
-  use_advanced_uri = false,
+  -- use_advanced_uri = false,
 
   -- Optional, set to true to force ':Obsidian open' to bring the app to the foreground.
-  open_app_foreground = false,
+  -- open_app_foreground = false,
 
   picker = {
     -- Set your preferred picker. Can be one of 'telescope.nvim', 'fzf-lua', 'mini.pick' or 'snacks.pick'.

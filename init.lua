@@ -1,7 +1,11 @@
-require('options')
-require('plugins')
-require('colorscheme')
-require('keymaps')
-require('lsp')
-require('obsidian_nvim')
-require('obsidian_setup')
+-- Config -- 
+require('config.colorscheme')
+require('config.options')
+require('config.keymaps')
+
+-- Plugins --
+require('plugins.plugins_setup')
+require('plugins.lsp')
+require('plugins.obsidian_nvim')
+require('plugins.obsidian_setup')
+require('plugins.telescope_setup')
